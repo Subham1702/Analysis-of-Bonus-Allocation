@@ -597,14 +597,6 @@ raw_data.to_csv('clean_data.csv', index=False)
 ## Insights from the data analysis:
 ### Statistical Insights: -
 1) Distribution of Winning Percentage.
-![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(1).png)
-Average Winning Percentage: 42.22% — This indicates that, on average, customers are winning about 42% of the time.
-
-2) Correlation Between Active Days and Total Number of Bets.
-![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(2).png)
-The correlation value is 0.21 — There is a weak positive correlation, suggesting that while more active customers tend to place more bets, the relationship is not particularly strong.
-
-3) Bonus Allocation (Yes/No).
  ``` Python
 plt.figure(figsize=(8, 6))
 plt.hist(data['Winning_percentage'], bins=30, color='skyblue', edgecolor='black')
@@ -614,13 +606,47 @@ plt.ylabel('Frequency')
 plt.grid(True)
 plt.show()
 ```
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(1).png)
+Average Winning Percentage: 42.22% — This indicates that, on average, customers are winning about 42% of the time.
+
+2) Correlation Between Active Days and Total Number of Bets.
+ ``` Python
+plt.figure(figsize=(8, 6))
+plt.scatter(data['Active_Days'], data['Total_Number_of_Bets'], color='green')
+plt.title('Correlation Between Active Days and Total Number of Bets')
+plt.xlabel('Active Days')
+plt.ylabel('Total Number of Bets')
+plt.grid(True)
+plt.show()
+```
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(2).png)
+The correlation value is 0.21 — There is a weak positive correlation, suggesting that while more active customers tend to place more bets, the relationship is not particularly strong.
+
+3) Bonus Allocation (Yes/No).
+ ``` Python
+plt.figure(figsize=(6, 6))
+bonus_allocation_distribution.plot(kind='pie', autopct='%1.1f%%', startangle=90, colors=['lightblue', 'lightcoral'])
+plt.title('Bonus Allocation (Yes/No)')
+plt.ylabel('')
+plt.show()
+```
 ![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(3).png)
 3593 customers should receive a bonus, while 1407 should not. This highlights a relatively balanced but slightly more frequent allocation towards receiving bonuses.
 
-5) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
+4) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
 
 
 ### Business Insights: -
-1) Bonus Impact on Customer Behavior: The data shows a significant increase in both the number of bets and the amount wagered after bonuses are given, implying that bonuses effectively drive engagement and potentially customer satisfaction.
+1) Bonus Impact on Customer Behavior: The data shows a significant increase in the number of bets and the amount wagered after bonuses are given, implying that bonuses effectively drive engagement and potentially customer satisfaction.
 2) Fairness in Bonus Allocation: The allocation of bonuses is mostly balanced, with a slightly higher proportion of customers receiving bonuses. This can be further optimized by considering key performance indicators to ensure alignment with business goals.
-3) Revenue Generation from Bonuses: The average revenue from bonuses is high, indicating that the current bonus system contributes positively to the business. Further optimization of the bonus allocation process could lead to a more efficient system, reducing costs and enhancing profitability.
+3) Revenue Generation from Bonuses: The average bonus revenue is high, indicating that the current bonus system contributes positively to the business. Further optimization of the bonus allocation process could lead to a more efficient system, reducing costs and enhancing profitability.
+
+## Recommendations:
+•	Segment the customer base using data-driven insights, analyzing factors like winning percentage, active days, and increase in bets after bonuses to target high-engagement customers for bonus allocation.
+•	Align bonuses with KPIs, such as increased bets and wagering amounts, by analyzing the impact of bonuses on customer behavior to ensure that bonuses drive the desired outcomes.
+•	Evaluate fairness in bonus distribution by conducting statistical analyses on performance metrics and customer activity to ensure bonuses are allocated equitably.
+•	Implement dynamic bonus allocation models using real-time data analytics to adjust bonus amounts based on customers' evolving betting patterns.
+•	Monitor the impact of bonuses through continuous analysis of customer engagement post-bonus, using metrics like the increase in bets and revenue, and adjust strategies accordingly.
+•	Optimize bonus budgeting by performing cost-benefit analyses on bonus recipients, ensuring bonuses are allocated efficiently to maximize return on investment (ROI).
+•	Leverage A/B testing and other experimental methods to test different bonus strategies and identify the most effective bonus structures for various customer segments based on data insights.
+
