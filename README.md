@@ -12,7 +12,7 @@ Achieving a 10% increase in profit margins through optimized bonus allocation.
 Generating a 20% increase in revenue from the solution within the first year of implementation.
 <details>
   <summary>EDA using MySQL</summary>
-  
+	
   ```SQL
 create database if not exists bonus_optimization_db;
 use bonus_optimization_db;
@@ -305,6 +305,7 @@ select count(distinct(total_no_of_bets)) from clean_data WHERE age_group = '46-5
  ```
 <details>
  <summary>EDA using Python</summary>
+	
  ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -574,4 +575,5 @@ preprocessed_data.shape
 
 #converting dataframe to csv file
 raw_data.to_csv('clean_data.csv', index=False)
-</details> ```
+</details>
+```
