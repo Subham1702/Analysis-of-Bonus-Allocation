@@ -593,3 +593,19 @@ raw_data.to_csv('clean_data.csv', index=False)
 
 ### Dashboard 2
 ![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/Screenshot%20(377).png)
+
+## Insights from the data analysis:
+### Statistical Insights: -
+1) Distribution of Winning Percentage.
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(1).png)
+Average Winning Percentage: 42.22% — This indicates that, on average, customers are winning about 42% of the time.
+
+2) Correlation Between Active Days and Total Number of Bets.
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(2).png)
+The correlation value is 0.21 — There is a weak positive correlation, suggesting that while more active customers tend to place more bets, the relationship is not particularly strong.
+
+3) Bonus Allocation (Yes/No).
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(3).png)
+3593 customers should receive a bonus, while 1407 should not. This highlights a relatively balanced but slightly more frequent allocation towards receiving bonuses.
+
+4) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
