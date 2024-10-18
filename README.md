@@ -11,11 +11,9 @@ Achieving a 10% increase in profit margins through optimized bonus allocation.
 ### Economic Success Criteria: 
 Generating a 20% increase in revenue from the solution within the first year of implementation.
 ## Exploratory Data Analysis(EDA):
-- [EDA using MySQL](#eda-using-mysql)
-- [EDA using Python](#eda-using-python)
 
 <details>
-  <summary id="eda-using-mysql">EDA using MySQL</summary>
+  <summary>EDA using MySQL</summary>
 	
   ```SQL
 create database if not exists bonus_optimization_db;
@@ -308,7 +306,7 @@ select count(distinct(total_no_of_bets)) from clean_data WHERE age_group = '46-5
 </details>
 
 <details>
- <summary id="eda-using-python">EDA using Python</summary>
+ <summary>EDA using Python</summary>
 	
  ```python
 import numpy as np
