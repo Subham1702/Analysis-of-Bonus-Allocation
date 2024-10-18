@@ -631,7 +631,7 @@ plt.ylabel('')
 plt.show()
 ```
 ![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(3).png)
-3593 customers should receive a bonus, while 1407 should not. This highlights a relatively balanced but slightly more frequent allocation towards receiving bonuses.
+ 3593 customers should receive a bonus, while 1407 should not. This highlights a relatively balanced but slightly more frequent allocation towards receiving bonuses.
 
 4) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
 
