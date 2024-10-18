@@ -302,16 +302,10 @@ SELECT avg(avg_bet_amt) FROM clean_data WHERE age_group = '46-55';    # 990
 select count(distinct(total_no_of_bets)) from clean_data WHERE age_group = '46-55';
 
 </details>
+ ```
 <details>
  <summary>EDA using Python</summary>
-python
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 13 13:22:47 2024
-
-@author: mital
-"""
-
+ ```python
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -580,5 +574,4 @@ preprocessed_data.shape
 
 #converting dataframe to csv file
 raw_data.to_csv('clean_data.csv', index=False)
-</details>
-```
+</details> ```
