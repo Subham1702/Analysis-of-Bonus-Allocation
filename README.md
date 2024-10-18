@@ -309,6 +309,9 @@ select count(distinct(total_no_of_bets)) from clean_data WHERE age_group = '46-5
 
 </details>
  ```
+
+---
+
 <details>
  <summary id="eda-using-python">EDA using Python</summary>
 	
