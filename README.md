@@ -609,3 +609,9 @@ The correlation value is 0.21 — There is a weak positive correlation, suggesti
 3593 customers should receive a bonus, while 1407 should not. This highlights a relatively balanced but slightly more frequent allocation towards receiving bonuses.
 
 4) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
+
+
+### Business Insights: -
+1) Bonus Impact on Customer Behavior: The data shows a significant increase in both the number of bets and the amount wagered after bonuses are given, implying that bonuses effectively drive engagement and potentially customer satisfaction.
+2) Fairness in Bonus Allocation: The allocation of bonuses is mostly balanced, with a slightly higher proportion of customers receiving bonuses. This can be further optimized by considering key performance indicators to ensure alignment with business goals.
+3) Revenue Generation from Bonuses: The average revenue from bonuses is high, indicating that the current bonus system contributes positively to the business. Further optimization of the bonus allocation process could lead to a more efficient system, reducing costs and enhancing profitability.
