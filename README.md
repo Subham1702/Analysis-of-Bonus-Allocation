@@ -14,29 +14,7 @@ Generating a 20% increase in revenue from the solution within the first year of 
 ## Data Understanding:
 Data Dimension = 5000 records, 19 attributes.
 ### Data Dictionary:
-Column Name	Data Type	Description
-customer_id	int64	            Unique identifier for the customer
-first_name	object	            First name of the customer
-last_name	object	            Last name of the customer
-country	object	                    Country of the customer
-age	int64	                    Age of the customer
-gender	object	                    Gender of the customer
-income_level	int64	            Income level of the customer
-Winning_percentage int64            Percentage of bets won
-Days_Since_Last_Bet int64           Days since the last bet
-Active_Days	int64	            Number of active days
-Total_Number_of_Bets int64          Total number of bets placed
-Total_Amount_Wagered int64          Total amount wagered
-Average_Bet_Amount int64            Average amount per bet
-No_of_Bonus_Received int64          Number of bonuses received
-Amount_of_Bonuses_Received int64    Amount of bonuses received
-Revenue_from_Bonuses	int64	    Revenue generated from bonuses
-Increase_in_Bets_After_Bonusint64   Increase in bets after receiving bonus
-Increase_in_wagering_after_Bonusint64 Increase in wagering after bonus
-Should_Receive_Bonus	int64	Whether the customer should receive a bonus (binary)
-
 ![image](https://github.com/user-attachments/assets/f7adeae9-59b8-4344-bde2-c0d9db98b382)
-
 
 ## Exploratory Data Analysis(EDA) & Data Preprocessing:
 
