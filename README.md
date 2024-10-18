@@ -13,7 +13,7 @@ Generating a 20% increase in revenue from the solution within the first year of 
 
 ## Data Understanding:
 Data Dimension = 5000 records, 19 attributes.
-### Data Dictionary:
+Data Dictionary:
 ![image](https://github.com/user-attachments/assets/f7adeae9-59b8-4344-bde2-c0d9db98b382)
 
 ## Exploratory Data Analysis(EDA) & Data Preprocessing:
@@ -605,10 +605,19 @@ Average Winning Percentage: 42.22% — This indicates that, on average, customer
 The correlation value is 0.21 — There is a weak positive correlation, suggesting that while more active customers tend to place more bets, the relationship is not particularly strong.
 
 3) Bonus Allocation (Yes/No).
+ ``` Python
+plt.figure(figsize=(8, 6))
+plt.hist(data['Winning_percentage'], bins=30, color='skyblue', edgecolor='black')
+plt.title('Distribution of Winning Percentage')
+plt.xlabel('Winning Percentage')
+plt.ylabel('Frequency')
+plt.grid(True)
+plt.show()
+```
 ![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/output%20(3).png)
 3593 customers should receive a bonus, while 1407 should not. This highlights a relatively balanced but slightly more frequent allocation towards receiving bonuses.
 
-4) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
+5) Average Revenue from Bonuses: 4991.88 — The revenue generated per customer from bonuses is approximately 5000, indicating the business value of offering bonuses.   
 
 
 ### Business Insights: -
