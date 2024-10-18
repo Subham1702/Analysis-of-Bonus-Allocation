@@ -304,9 +304,8 @@ SELECT AVG(win_pert) AS avg_winning_percentage FROM clean_data
 WHERE age_group = '46-55';          #43%
 SELECT avg(avg_bet_amt) FROM clean_data WHERE age_group = '46-55';    # 990
 select count(distinct(total_no_of_bets)) from clean_data WHERE age_group = '46-55';
-
+```
 </details>
- ```
 
 <details>
  <summary id="eda-using-python">EDA using Python</summary>
@@ -580,5 +579,6 @@ preprocessed_data.shape
 
 #converting dataframe to csv file
 raw_data.to_csv('clean_data.csv', index=False)
-</details>
+
 ```
+</details>
