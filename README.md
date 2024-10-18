@@ -10,7 +10,7 @@ Maximize fairness in bonus distribution.
 Achieving a 10% increase in profit margins through optimized bonus allocation.
 ### Economic Success Criteria: 
 Generating a 20% increase in revenue from the solution within the first year of implementation.
-## Exploratory Data Analysis(EDA):
+## Exploratory Data Analysis(EDA) & Data Preprocessing:
 
 <details>
   <summary>EDA using MySQL</summary>
@@ -580,3 +580,5 @@ raw_data.to_csv('clean_data.csv', index=False)
 
 ```
 </details>
+
+## Data Visualization:
