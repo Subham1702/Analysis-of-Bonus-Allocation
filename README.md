@@ -583,4 +583,7 @@ raw_data.to_csv('clean_data.csv', index=False)
 
 ## Data Visualization:
 ### Dashboard 1
-![alt text]
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/Screenshot%20(376).png)
+
+### Dashboard 2
+![alt text](https://github.com/Subham1702/Analysis-of-Bonus-Allocation/blob/main/Screenshot%20(377).png)
