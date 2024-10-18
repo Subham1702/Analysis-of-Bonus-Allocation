@@ -642,11 +642,11 @@ plt.show()
 3) Revenue Generation from Bonuses: The average bonus revenue is high, indicating that the current bonus system contributes positively to the business. Further optimization of the bonus allocation process could lead to a more efficient system, reducing costs and enhancing profitability.
 
 ## Recommendations:
-•	Segment the customer base using data-driven insights, analyzing factors like winning percentage, active days, and increase in bets after bonuses to target high-engagement customers for bonus allocation.
-•	Align bonuses with KPIs, such as increased bets and wagering amounts, by analyzing the impact of bonuses on customer behavior to ensure that bonuses drive the desired outcomes.
-•	Evaluate fairness in bonus distribution by conducting statistical analyses on performance metrics and customer activity to ensure bonuses are allocated equitably.
-•	Implement dynamic bonus allocation models using real-time data analytics to adjust bonus amounts based on customers' evolving betting patterns.
-•	Monitor the impact of bonuses through continuous analysis of customer engagement post-bonus, using metrics like the increase in bets and revenue, and adjust strategies accordingly.
-•	Optimize bonus budgeting by performing cost-benefit analyses on bonus recipients, ensuring bonuses are allocated efficiently to maximize return on investment (ROI).
-•	Leverage A/B testing and other experimental methods to test different bonus strategies and identify the most effective bonus structures for various customer segments based on data insights.
+• Segment the customer base using data-driven insights, analyzing factors like winning percentage, active days, and increase in bets after bonuses to target high-engagement customers for bonus allocation.
+• Align bonuses with KPIs, such as increased bets and wagering amounts, by analyzing the impact of bonuses on customer behavior to ensure that bonuses drive the desired outcomes.
+• Evaluate fairness in bonus distribution by conducting statistical analyses on performance metrics and customer activity to ensure bonuses are allocated equitably.
+• Implement dynamic bonus allocation models using real-time data analytics to adjust bonus amounts based on customers' evolving betting patterns.
+• Monitor the impact of bonuses through continuous analysis of customer engagement post-bonus, using metrics like the increase in bets and revenue, and adjust strategies accordingly.
+• Optimize bonus budgeting by performing cost-benefit analyses on bonus recipients, ensuring bonuses are allocated efficiently to maximize return on investment (ROI).
+• Leverage A/B testing and other experimental methods to test different bonus strategies and identify the most effective bonus structures for various customer segments based on data insights.
 
